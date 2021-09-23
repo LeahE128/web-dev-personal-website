@@ -1,0 +1,330 @@
+/* I explored doing an animation because I thought it would really add to my website, I did a google search and found this code on https://gist.github.com/L-canton/8c376213b82df81d90541a82aa2efe50 by L-canton. I used this template and I just tweaked it and altered it to my liking as I wanted to create a visual of twinkling stars in the background of my website. */ 
+
+
+
+
+.star {
+  position: absolute;
+  box-shadow: 0 0 3px #fff;
+  border-radius: 50%;
+}
+
+.twinkle-star-1 {
+  width: 5px;
+  height: 6px;
+  right: 16%;
+  top: 4%;
+  background: #b6c8ff;
+  -webkit-animation: twinkle 0.5s alternate infinite;
+          animation: twinkle 0.5s alternate infinite;
+  -webkit-animation-delay: 1.61404s;
+          animation-delay: 1.61404s;
+}
+
+.twinkle-star-2 {
+  right: 32%;
+  top: 4%;
+  width: 4px;
+  height: 4px;
+  background: #f4ccbf;
+  -webkit-animation: twinkle 0.5s alternate infinite;
+          animation: twinkle 0.5s alternate infinite;
+  -webkit-animation-delay: 4.09091s;
+          animation-delay: 4.09091s;
+}
+
+.twinkle-star-3 {
+  background: #f4ccbf;
+  width: 3px;
+  height: 3px;
+  left: 30%;
+  top: 8%;
+  -webkit-animation: twinkle 0.75s alternate infinite;
+          animation: twinkle 0.75s alternate infinite;
+  -webkit-animation-delay: 1.77143s;
+          animation-delay: 1.77143s;
+}
+
+.twinkle-star-4 {
+  width: 5px;
+  height: 5px;
+  left: 53%;
+  top: 12%;
+  background: #b6c8ff;
+  -webkit-animation: twinkle 0.5s alternate infinite;
+          animation: twinkle 0.5s alternate infinite;
+  -webkit-animation-delay: 1.55357s;
+          animation-delay: 1.55357s;
+}
+
+.twinkle-star-5 {
+  background: #f4aaaa;
+  width: 4px;
+  height: 4px;
+  left: 12%;
+  top: 4%;
+  -webkit-animation: twinkle 0.75s alternate infinite;
+          animation: twinkle 0.75s alternate infinite;
+  -webkit-animation-delay: 0.88462s;
+          animation-delay: 0.88462s;
+}
+
+.twinkle-star-6 {
+  background: #f4aaaa;
+  width: 3px;
+  height: 3px;
+  left: 2%;
+  top: %;
+  -webkit-animation: twinkle 0.5s alternate infinite;
+          animation: twinkle 0.5s alternate infinite;
+  -webkit-animation-delay: 0.66s;
+          animation-delay: 0.66s;
+}
+
+.twinkle-star-7 {
+  background: #b6c8f9;
+  width: 3px;
+  height: 3px;
+  left: 40%;
+  top: 4%;
+  -webkit-animation: twinkle 0.75s alternate infinite;
+          animation: twinkle 0.75s alternate infinite;
+  -webkit-animation-delay: 0.03279s;
+          animation-delay: 0.03279s;
+}
+  .twinkle-star-8 {
+  width: 3px;
+  height: 3px;
+  right: 6%;
+  top: 21%;
+  background: #b6c8ff;
+  -webkit-animation: twinkle 0.5s alternate infinite;
+          animation: twinkle 0.5s alternate infinite;
+  -webkit-animation-delay: 1.61404s;
+          animation-delay: 1.61404s;
+}
+
+.twinkle-star-9 {
+  right: 18%;
+  top: 20%;
+  width: 4px;
+  height: 4px;
+  background: #f4ccbf;
+  -webkit-animation: twinkle 0.5s alternate infinite;
+          animation: twinkle 0.5s alternate infinite;
+  -webkit-animation-delay: 4.09091s;
+          animation-delay: 4.09091s;
+}
+
+.twinkle-star-10 {
+  background: #f4ccbf;
+  width: 3px;
+  height: 3px;
+  left: 25%;
+  top: 20%;
+  -webkit-animation: twinkle 0.75s alternate infinite;
+          animation: twinkle 0.75s alternate infinite;
+  -webkit-animation-delay: 1.77143s;
+          animation-delay: 1.77143s;
+}
+
+.twinkle-star-11 {
+  width: 5px;
+  height: 5px;
+  left: 70%;
+  top: 22%;
+  background: #b6c8ff;
+  -webkit-animation: twinkle 0.5s alternate infinite;
+          animation: twinkle 0.5s alternate infinite;
+  -webkit-animation-delay: 1.55357s;
+          animation-delay: 1.55357s;
+}
+
+.twinkle-star-12 {
+  background: #f4aaaa;
+  width: 4px;
+  height: 4px;
+  left: 22%;
+  top: 3%;
+  -webkit-animation: twinkle 0.75s alternate infinite;
+          animation: twinkle 0.75s alternate infinite;
+  -webkit-animation-delay: 0.88462s;
+          animation-delay: 0.88462s;
+}
+
+.twinkle-star-13 {
+  background: #f4aaaa;
+  width: 3px;
+  height: 3px;
+  left: 50%;
+  top: 5%;
+  -webkit-animation: twinkle 0.5s alternate infinite;
+          animation: twinkle 0.5s alternate infinite;
+  -webkit-animation-delay: 0.66s;
+          animation-delay: 0.66s;
+}
+
+.twinkle-star-14 {
+  background: #b6c8f9;
+  width: 3px;
+  height: 3px;
+  left: 46%;
+  top: 10%;
+  -webkit-animation: twinkle 0.75s alternate infinite;
+          animation: twinkle 0.75s alternate infinite;
+  -webkit-animation-delay: 0.03279s;
+          animation-delay: 0.03279s;
+}
+
+.twinkle-star-15 {
+  width: 5px;
+  height: 6px;
+  right: 26%;
+  top: 4%;
+  background: #b6c8ff;
+  -webkit-animation: twinkle 0.5s alternate infinite;
+          animation: twinkle 0.5s alternate infinite;
+  -webkit-animation-delay: 1.61404s;
+          animation-delay: 1.61404s;
+}
+
+.twinkle-star-16 {
+  right: 2%;
+  top: 4.5%;
+  width: 4px;
+  height: 4px;
+  background: #f4ccbf;
+  -webkit-animation: twinkle 0.5s alternate infinite;
+          animation: twinkle 0.5s alternate infinite;
+  -webkit-animation-delay: 4.09091s;
+          animation-delay: 4.09091s;
+}
+
+.twinkle-star-17 {
+  background: #f4ccbf;
+  width: 3px;
+  height: 3px;
+  left: 32%;
+  top: 18%;
+  -webkit-animation: twinkle 0.75s alternate infinite;
+          animation: twinkle 0.75s alternate infinite;
+  -webkit-animation-delay: 1.77143s;
+          animation-delay: 1.77143s;
+}
+
+.twinkle-star-18 {
+  width: 5px;
+  height: 5px;
+  left: 40%;
+  top: 20%;
+  background: #b6c8ff;
+  -webkit-animation: twinkle 0.5s alternate infinite;
+          animation: twinkle 0.5s alternate infinite;
+  -webkit-animation-delay: 1.55357s;
+          animation-delay: 1.55357s;
+}
+
+.twinkle-star-19 {
+  background: #f4aaaa;
+  width: 4px;
+  height: 4px;
+  left: 22%;
+  top: %;
+  -webkit-animation: twinkle 0.75s alternate infinite;
+          animation: twinkle 0.75s alternate infinite;
+  -webkit-animation-delay: 0.88462s;
+          animation-delay: 0.88462s;
+}
+
+.twinkle-star-20 {
+  background: #f4aaaa;
+  width: 3px;
+  height: 3px;
+  left: 2%;
+  top: 5%;
+  -webkit-animation: twinkle 0.5s alternate infinite;
+          animation: twinkle 0.5s alternate infinite;
+  -webkit-animation-delay: 0.66s;
+          animation-delay: 0.66s;
+}
+
+.twinkle-star-21 {
+  background: #b6c8f9;
+  width: 3px;
+  height: 3px;
+  left: 40%;
+  top: %;
+  -webkit-animation: twinkle 0.75s alternate infinite;
+          animation: twinkle 0.75s alternate infinite;
+  -webkit-animation-delay: 0.03279s;
+          animation-delay: 0.03279s;
+}
+  .twinkle-star-22 {
+  width: 3px;
+  height: 3px;
+  right: 6%;
+  top: 5%;
+  background: #b6c8ff;
+  -webkit-animation: twinkle 0.5s alternate infinite;
+          animation: twinkle 0.5s alternate infinite;
+  -webkit-animation-delay: 1.61404s;
+          animation-delay: 1.61404s;
+}
+
+.twinkle-star-23 {
+  right: 38%;
+  top: 18%;
+  width: 4px;
+  height: 4px;
+  background: #f4ccbf;
+  -webkit-animation: twinkle 0.5s alternate infinite;
+          animation: twinkle 0.5s alternate infinite;
+  -webkit-animation-delay: 4.09091s;
+          animation-delay: 4.09091s;
+}
+
+.twinkle-star-24 {
+  background: #f4ccbf;
+  width: 3px;
+  height: 3px;
+  left: 6%;
+  top: 18%;
+  -webkit-animation: twinkle 0.75s alternate infinite;
+          animation: twinkle 0.75s alternate infinite;
+  -webkit-animation-delay: 1.77143s;
+          animation-delay: 1.77143s;
+}
+
+.twinkle-star-25 {
+  width: 5px;
+  height: 5px;
+  left: 75%;
+  top: %;
+  background: #b6c8ff;
+  -webkit-animation: twinkle 0.5s alternate infinite;
+          animation: twinkle 0.5s alternate infinite;
+  -webkit-animation-delay: 1.55357s;
+          animation-delay: 1.55357s;
+}
+
+.twinkle-star-26 {
+  background: #f4aaaa;
+  width: 4px;
+  height: 4px;
+  left: 62%;
+  top: 25%;
+  -webkit-animation: twinkle 0.75s alternate infinite;
+          animation: twinkle 0.75s alternate infinite;
+  -webkit-animation-delay: 0.88462s;
+          animation-delay: 0.88462s;
+}
+
+
+
+@keyframes twinkle {
+  0% {
+    opacity: .45;
+  }
+  100% {
+    opacity: 1;
+  }

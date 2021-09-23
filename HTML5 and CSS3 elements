@@ -1,0 +1,76 @@
+                    /*HTML5 Elements*/
+
+
+All three of these elements are in all 5 HTML Files
+1.header      (line 3)            
+2.Nav        (line 22)
+3.footer     (line 79)
+
+
+
+These elements are in Experience.html file
+4.aside      (line 92)
+5.section     (line 72)
+
+
+This element is in the Contact_me.html file
+6.button      (line 80)
+
+
+
+
+
+
+                /*CSS3 Elements*/
+
+
+These elements are in the Animation.css file
+1. animation        (line 18)
+2. animation delay   (line 20)
+
+
+
+This element is in #section img in Main.css
+3. border radius     (line 153)
+
+This element is in #interest 3 in Main.css
+4. overflow-x     (line 195)
+
+
+
+This element is in #header nav ul li a in Main.css
+5.Text-decoration-line  (line 63)
+
+
+This element is in #html in Main.css
+6. Background-size      (line 21)
+
+
+            /*Table*/
+            
+See Contact_me.html for table details.
+
+            /*List*/
+            
+I have used multiple lists, such as in Experience.html file and Home.html, I have used vertical lists in Experience.html and horizontal lists in Home.html
+
+
+            /*In-line Block*/
+            
+In #aside.p in Main.css   (line 391)
+
+            /*Block*/
+
+In #Home secondary in Main.css     (line 185)
+
+            /*Position*/
+            
+In #Interests two in Main.css    (line 492)
+
+            /*Float*/
+            
+In #Section in Main.css   (line 278)
+
+
+
+
